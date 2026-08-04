@@ -1,0 +1,5 @@
+loan_type,risk_category,weighted_risk_score
+MORTGAGE,LOW,0.15
+PERSONAL,MEDIUM,0.45
+AUTO,MEDIUM,0.35
+COMMERCIAL,HIGH,0.85

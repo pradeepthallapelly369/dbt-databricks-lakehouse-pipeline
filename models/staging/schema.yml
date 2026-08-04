@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: raw_banking
+    database: main
+    schema: raw_layer
+    tables:
+      - name: transactions
+      - name: loans
+
+models:
+  - name: stg_banking_transactions
+    description: "Normalized staging view of raw banking transactions converted from legacy QVD scripts."
+    columns:
+      - name: transaction_id
+        tests:
+          - unique
+          - not_null
+      - name: transaction_amount
+        tests:
+          - not_null
+
+  - name: stg_loan_portfolio
+    description: "Normalized staging view of loan portfolio records."
+    columns:
+      - name: loan_id
+        tests:
+          - unique
+          - not_null

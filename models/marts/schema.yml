@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_daily_banking_summary
+    description: "Production Gold Layer Fact Table containing daily aggregated customer transactions stored as Databricks Delta Tables."
+    columns:
+      - name: daily_summary_key
+        tests:
+          - unique
+          - not_null
+      - name: transaction_date
+        tests:
+          - not_null
+      - name: total_completed_amount
+        tests:
+          - not_null
