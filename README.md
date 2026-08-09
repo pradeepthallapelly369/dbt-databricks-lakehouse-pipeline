@@ -116,7 +116,7 @@ chmod +x scripts/run_dbt_lakehouse.sh
 ## 👤 Author & Maintainer
 
 **Pradeep Thallapelly**  
-*Senior BI Developer · Data Engineer · AI Technical Lead*  
+*Senior AI & Data Engineer / Analytics Engineering Lead*  
 - 💼 **LinkedIn**: [linkedin.com/in/pradeep-thallapelly-890b17312](https://linkedin.com/in/pradeep-thallapelly-890b17312)  
 - 📧 **Email**: [pradeep.thallapelly369@outlook.com](mailto:pradeep.thallapelly369@outlook.com)  
 - 🐙 **GitHub**: [@pradeepthallapelly369](https://github.com/pradeepthallapelly369)
